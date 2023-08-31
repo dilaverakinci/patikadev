@@ -1,0 +1,37 @@
+.sayfabasi{
+    height: 100px;
+    color: whitesmoke;
+    background-color: #040D12;
+    text-align: center;
+    font-size: 34px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5C8374;
+  }
+  
+nav ul li {
+    float: left;
+  }
+  
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+nav ul li a:hover {
+    background-color: #183D3D;
+  }
+
+  article{
+    height: 800px;
+    color: whitesmoke;
+    background-color: #93B1A6;
+  }
