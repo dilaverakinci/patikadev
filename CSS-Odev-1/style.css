@@ -1,12 +1,39 @@
+body {
+/*  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 13px
+  color:#333;
+  */
+  width: 900px;
+  margin: auto;
+} 
+
 .sayfabasi {
-  padding: 0px;
-  margin: 0px;
   height: 100px;
+  width: 900px;
   color: whitesmoke;
   background-color: #040D12;
   text-align: center;
-  font-size: 34px;
+  font-size: 32px;
+}
 
+.navigasyon {
+  height: 40px;
+  width: 900px;
+}
+
+article {
+  height: 800px;
+  width: 900px;
+  background-color: #93B1A6;
+  float: left;
+}
+
+footer {
+  height: 100px;
+  width: 900px;
+  background: #5C8374;
+  text-align: center;
+  clear: both;
 }
 
 /* Dropdown */
@@ -65,29 +92,42 @@ nav ul li.dropdown {
   display: block;
 }
 
-.navigasyon {
-  padding: 0px;
-  margin: 0px;
+/* --------------------------------------------------------------------------------*/
+
+.kutu{
+  float:left;
+  width: 590px;
+  margin-left: 5px;
+  font-size: 14px;
+}
+.kutu2{
+  font-size: 12px;
+  float: left;
+  margin-left: 5px;
+  width: 290px;
 }
 
-article {
-  height: 800px;
-  padding: 0px;
-  margin: 0px;
-  border-style: solid;
-  border-width: 0.1px;
-  border-color: #93B1A6;
-  color: rgb(255, 255, 255);
-  background-color: #93B1A6;
+.fnt-Segoe-14{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  text-align:justify;
 }
 
-.kutu1 {
-  padding: 15px;
-  margin: 10px;
-  background-color: #93B1A6;
-  width: 400px;
-  padding-top: 0px;
-  margin: 0px;
-  /*float: left;*/
+.fnt-Segoe-12{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+  text-align:justify;
+  
+}
 
+footer ul{
+  display:inline-flex; 
+  list-style-type: none;
+
+}
+footer ul li{
+  margin-left: 10px ;
+  margin-right: 10px;
+  clear: both;
+  float:none;
 }
