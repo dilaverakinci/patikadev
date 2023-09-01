@@ -1,37 +1,93 @@
-.sayfabasi{
-    height: 100px;
-    color: whitesmoke;
-    background-color: #040D12;
-    text-align: center;
-    font-size: 34px;
+.sayfabasi {
+  padding: 0px;
+  margin: 0px;
+  height: 100px;
+  color: whitesmoke;
+  background-color: #040D12;
+  text-align: center;
+  font-size: 34px;
+
 }
 
+/* Dropdown */
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #5C8374;
-  }
-  
-nav ul li {
-    float: left;
-  }
-  
-nav ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-nav ul li a:hover {
-    background-color: #183D3D;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5C8374;
+}
 
-  article{
-    height: 800px;
-    color: whitesmoke;
-    background-color: #93B1A6;
-  }
+nav ul li {
+  float: left;
+}
+
+nav ul li a,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #183D3D;
+}
+
+nav ul li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #93B1A6;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navigasyon {
+  padding: 0px;
+  margin: 0px;
+}
+
+article {
+  height: 800px;
+  padding: 0px;
+  margin: 0px;
+  border-style: solid;
+  border-width: 0.1px;
+  border-color: #93B1A6;
+  color: rgb(255, 255, 255);
+  background-color: #93B1A6;
+}
+
+.kutu1 {
+  padding: 15px;
+  margin: 10px;
+  background-color: #93B1A6;
+  width: 400px;
+  padding-top: 0px;
+  margin: 0px;
+  /*float: left;*/
+
+}
