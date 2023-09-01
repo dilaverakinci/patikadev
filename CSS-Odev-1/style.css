@@ -131,3 +131,12 @@ footer ul li{
   clear: both;
   float:none;
 }
+
+footer ul li a {
+  text-decoration: none;
+  color: aliceblue;
+} 
+
+footer ul li a:hover {
+  color:brown;
+} 
