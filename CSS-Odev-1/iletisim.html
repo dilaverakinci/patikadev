@@ -34,10 +34,41 @@
     </nav>
 
     <article>
-        
-        <div>
+        <div style="float: left;
+                    width:350px;
+                    height:295px; 
+                    border-style: solid;
+                    border-width: 1px; 
+                    margin-right:15px;
+                    border-color: gray;
+                    padding:5px 10px;"
+                    >
+            <p>
+                Lütfen görüş ve önerilerinizi yandaki mesaj kutusuna yazınız.
+                isim ve mail adresiniz görüşlerinizi değerlendirmem ve geri dönüş yapabilmem için önemlidir.
+            </p>
+            <p>
+                Verdiğiniz destek ve önerileriniz için şimdiden teşekkür ederim.
+            </p>
             
-        </div>        
+        </div>
+        <form class="form-kutusu" action="" method="get">
+            <fieldset style="width: fit-content;">
+                <legend> İletişim </legend>
+                <label for="ad">Ad :</label><br>
+                    <input type="text" id="ad" name="ad" value=""><br>
+                <label for="soyad">Soyad:</label><br>
+                    <input type="text" id="soyad" name="soyad" value=""><br>
+                <label for="email">email : </label><br>
+                    <input type="email" id="email" name="email" value=""><br>
+                <br>
+                <label for="mesaj">Mesaj :</label><br>
+                <textarea name="mesaj" id="mesaj" cols="30" rows="5"></textarea><br><br>
+                <input type="submit" value="Gönder">
+                <input type="reset" value="Temizle">
+            </fieldset>
+
+        </form>
     </article>
 
     <footer>
